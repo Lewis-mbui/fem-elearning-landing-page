@@ -19,7 +19,6 @@
 
 /* Typography */
 body {
-  line-height: 1.5;
   font-size: 1rem;
   font-size: clamp(1rem, 0.9353448275862069rem + 0.27586206896551724vw, 1.125rem);
   font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
@@ -38,4 +37,37 @@ h1 {
 h2 {
   font-size: clamp(1.25rem, 1.1206896551724137rem + 0.5517241379310345vw, 1.5rem);
   color: var(--color-blue-900);
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Buttons */
+.btn {
+  border: 0;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.125rem;
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn--primary {
+  background: var(--color-blue-900);
+  color: var(--color-white);
+}
+
+.btn--secondary {
+  background: var(--gradient-pink);
+  color: var(--color-white);
+}
+
+.btn--accent {
+  background: var(--gradient-purple);
+  color: var(--color-white);
 }
