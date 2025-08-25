@@ -85,7 +85,7 @@ p {
   padding-block-start: 2.8rem;
   padding-block-end: 2.1rem;
   padding-inline: 1.4rem;
-  border-radius: 8px;
+  border-radius: 9px;
   position: relative;
   max-width: 340px;
 }
@@ -111,4 +111,20 @@ p {
   text-decoration: none;
   color: var(--color-pink-600);
   font-weight: 800;
+}
+
+/* CTA */
+.cta {
+  background: var(--gradient-pink);
+  padding-block: 2rem;
+  border-radius: 9px;
+  padding-inline: 2rem;
+  max-width: 360px;
+}
+
+.cta__content {
+  color: var(--color-white);
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.4;
 }
