@@ -129,6 +129,28 @@ p {
   line-height: 1.4;
 }
 
+/* Header Section */
+.header {
+  padding-block: 1rem;
+  outline: 1px solid green;
+}
+
+.header__wrapper {
+  outline: 1px solid magenta;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 79px;
+  height: 21px;
+}
+
+.header__btn {
+  
+}
+
 /* Utilities */
 .wrapper {
   width: min(100% - 2rem, 62.5rem);
