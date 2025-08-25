@@ -17,8 +17,15 @@
   padding: 0;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* Typography */
 body {
+  background-color: var(--color-grey);
+  /* background-color: rgb(239, 241, 254); */
   font-size: 1rem;
   font-size: clamp(1rem, 0.9353448275862069rem + 0.27586206896551724vw, 1.125rem);
   font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
@@ -70,4 +77,38 @@ p {
 .btn--accent {
   background: var(--gradient-purple);
   color: var(--color-white);
+}
+
+/* Cards */
+.card {
+  background: var(--color-white);
+  padding-block-start: 2.8rem;
+  padding-block-end: 2.1rem;
+  padding-inline: 1.4rem;
+  border-radius: 8px;
+  position: relative;
+  max-width: 340px;
+}
+
+.card__icon {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 0;
+  transform: translateY(-28px);
+}
+
+.card__header {
+  margin-bottom: 1rem;
+}
+
+.card__description {
+  color: var(--color-grey);
+  margin-bottom: 1.2rem;
+}
+
+.card__link {
+  text-decoration: none;
+  color: var(--color-pink-600);
+  font-weight: 800;
 }
