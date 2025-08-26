@@ -24,8 +24,6 @@ img {
 
 /* Typography */
 body {
-  /* background-color: var(--color-grey); */
-  /* background-color: rgb(239, 241, 254); */
   font-size: 1rem;
   font-size: clamp(1rem, 0.9353448275862069rem + 0.27586206896551724vw, 1.125rem);
   font-family: "Plus Jakarta Sans", Arial, Helvetica, sans-serif;
@@ -145,20 +143,9 @@ p {
   height: 21px;
 }
 
-.header__btn {
-  
-}
-
 /* Hero Section */
 .hero {
   padding-block-start: 1.4rem;
-}
-
-.hero__wrapper {
-}
-
-.hero__content {
-
 }
 
 .hero__title {
@@ -168,11 +155,6 @@ p {
 .hero__description {
   color: var(--color-grey);
   margin-bottom: 1.2rem;
-}
-
-.hero__btn {}
-
-.hero__image-container {
 }
 
 .hero__image {
@@ -204,13 +186,11 @@ p {
 
 /* Features Section */
 .features-section {
-  /* background-color: yellow; */
   background: linear-gradient(white, rgb(239, 241, 254));
   padding-block-end: 4.5rem;;
 }
 
 .features-section__wrapper {
-  /* background-color: dodgerblue; */
   display: grid;
   gap: 2.7rem;
   justify-items: center;
