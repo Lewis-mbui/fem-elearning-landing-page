@@ -119,7 +119,7 @@ p {
   padding-block: 2rem;
   border-radius: 9px;
   padding-inline: 2rem;
-  max-width: 360px;
+  max-width: 340px;
 }
 
 .cta__content {
@@ -151,7 +151,7 @@ p {
 
 /* Hero Section */
 .hero {
-  padding-block: 1.4rem;
+  padding-block-start: 1.4rem;
 }
 
 .hero__wrapper {
@@ -202,6 +202,30 @@ p {
   }
 }
 
+/* Features Section */
+.features-section {
+  /* background-color: yellow; */
+  background: linear-gradient(white, rgb(239, 241, 254));
+  padding-block-end: 5rem;;
+}
+
+.features-section__wrapper {
+  /* background-color: dodgerblue; */
+  display: grid;
+  gap: 2.7rem;
+  justify-items: center;
+}
+
+.features-section__cta {
+  width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  .features-section__wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.7rem 1rem;
+  }
+}
 
 /* Utilities */
 .wrapper {
@@ -213,6 +237,12 @@ p {
   width: 100px;
   height: 100px;
   background: green;
+}
+
+@media screen and (min-width: 900px) {
+  .features-section__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 
