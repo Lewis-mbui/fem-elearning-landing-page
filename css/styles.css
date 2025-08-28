@@ -23,6 +23,10 @@ img {
 }
 
 /* Typography */
+main {
+  overflow-x: clip;
+}
+
 body {
   font-size: 1rem;
   font-size: clamp(1rem, 0.9353448275862069rem + 0.27586206896551724vw, 1.125rem);
